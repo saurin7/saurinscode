@@ -1,0 +1,211 @@
+﻿/*
+    File: default.css
+        
+    Copyright 2013,
+    Veena Jaisingh,
+    College of Computer and Information Science
+    Northeastern University, Boston, MA 02115
+    veenaj@ccs.neu.edu/ jaisingh.v@husky.neu.edu
+    
+    February 10, 2013
+*/
+
+
+/*style for outermost div */
+.wrapperDiv {
+    overflow: auto !important;
+    height: auto;
+    min-width: inherit;
+    margin: auto;
+    width: 575px;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    padding-bottom: 20px;
+    background-color: white; 
+
+    /* outer shadows  (note the rgba is red, green, blue, alpha) */
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+    /* rounded corners */
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 7px; 
+    border-radius: 7px;
+
+     background: url(../images/front.jpg) repeat-x top left;
+}
+
+/*provides style to the profile picture on the page*/
+#profilePicture {
+    width: 150px;
+    height: 200px;
+}
+
+/*style for the various counts displayed on the page*/
+.countofItemsOuter {
+    margin: 10px 0px 0px 10px;
+    color: #302b23;
+    font-weight: 300;
+}
+
+/*defines style for the body*/
+body {
+   
+    background-image:url('../images/Back.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: Verdana;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 0 ;
+    
+}
+
+/*this style is to keep the content in the center of the page */
+.alignCenter {
+    width: 700px;
+    margin: auto;
+}
+
+/*styling for the user name displayed*/
+#userName {
+    font-size: 2em;
+    text-align: left;
+    padding: 15px 0px 0px 20px;
+    color: #302b23;
+}
+
+/*styling for logout button*/
+#fbLogout {
+    padding-left: 20px 20px 0px 200px;
+    margin: 20px 0px 0px 200px;
+}
+
+/*this class makes a div float left */
+.floatLeft {
+    float: left;
+}
+
+/*this class makes a div float right */
+.floatRight {
+    float: right;
+}
+
+/*to clear the float*/
+.clear {
+    clear: both;
+}
+
+/*styling for the details of a user*/
+.otherDetails {
+    width: 75%;
+    margin-left: 20px;
+}
+
+/*to indent the content from left*/
+.leftIndent {
+    padding-left: 40px;
+}
+
+/*styling for the location displayed*/
+#userLocation {
+    color: #302b23 !important;
+}
+
+/*style for the three main sections*/
+.fbPosts a, .fbLikes a, .fbComments a {
+    display: block;
+    font-family: BPreplay,Arial,Helvetica,sans-serif;
+    font-size: 21px;
+    height: 34px;
+    overflow: hidden;
+    padding: 10px 20px 0;
+    position: relative;
+    width: 230px;
+}
+
+/*since there is an extra sentence in this image*/
+.fbPosts a {
+    height: 60px;
+}
+
+/*To remove IE issue of borders */
+
+ a {outline : none;}
+ a img {outline : none;}
+ img {border : 0;}
+
+
+/*style for a:hover*/
+    .fbPosts a:hover, .fbLikes a:hover, .fbComments a:hover {
+        /* Removing the inherited underline from the titles */
+        text-decoration: none;
+    }
+
+    /*setting up different styles for each section color */
+    .fbPosts a.greenPosts {
+        background: url(../images/green.png) repeat-x top left;
+        color: #436800;
+    }
+
+/*styles specific to likes*/
+.fbLikes a.redPosts {
+    background: url(../images/red.png) repeat-x top left;
+    color: #641603;
+    cursor: default !important;
+}
+
+/*styles specific to comments*/
+.fbComments a.orangePosts {
+    background: url(../images/orange.png) repeat-x top left;
+    color: #882e02;
+    cursor: default !important;
+}
+
+/*styles for the post types*/
+.dropdown {
+    display: none;
+    padding-top: 5px;
+    width: 54%;
+    margin-top: 5px;
+}
+
+/*style for individual in the post types*/
+.dropdown li {
+    background-color: #373128;
+    border: 1px solid #40392C;
+    color: #CCCCCC;
+    margin: 5px 0;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*style for individual post types */
+.fbLikes a, .fbComments a,.fbPosts a {
+    text-decoration:none;
+}
+
+/*style for individual post types */
+    .fbLikes a, .fbComments a:hover,.fbPosts a:hover {
+        /* Removing the inherited underline from the titles */
+        text-decoration: none;
+    }
+
+/*style specific for posts*/
+.fbPostsUL {
+    margin-left: -40px;
+    list-style-type: none;
+}
+
+/*style for sublist of post type*/
+.subList {
+    width: 90%;
+    padding-left: 10px;
+}
+
+/*to provide indentation from right  */
+.indentFromRight {
+    padding-right: 10px;
+    margin-left: 20px;
+}
