@@ -1,6 +1,6 @@
 <?php
 
-// Inclusion of relevant library and files
+// Inclusion of relevant libttrary and files
 include 'libs\facebook.php';
 include 'functions.php';
 include 'view.php';
