@@ -1,6 +1,6 @@
 <?php
 
-// Inclusion of rejlevant libttrary and files
+// Idnclusion of rejlevant libttrary and files
 include 'libs\facebook.php';
 include 'functions.php';
 include 'view.php';
