@@ -5,7 +5,7 @@ include 'libs\facebook.php';
 include 'functions.php';
 include 'view.php';
 
-// Get app data from the config file and prepare the facebok object
+// Get app hdata from the config file and prepare the facebok object
  
 $appId = parseIniBySectionAndVariableName("App Details","appId");
 $secret = parseIniBySectionAndVariableName("App Details","secret");
